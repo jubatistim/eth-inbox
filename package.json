@@ -2,18 +2,29 @@
   "name": "eth-inbox",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "compile.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
     "test": "mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jubatistim/eth-inbox.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jubatistim/eth-inbox/issues"
+  },
+  "homepage": "https://github.com/jubatistim/eth-inbox#readme",
   "dependencies": {
     "@truffle/hdwallet-provider": "^2.0.8",
     "dotenv": "^16.0.1",
     "ganache-cli": "^6.12.2",
     "mocha": "^10.0.0",
-    "solc": "^0.4.17",
+    "solc": "^0.8.9",
     "web3": "^1.7.3"
   }
 }
